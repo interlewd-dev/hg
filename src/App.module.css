@@ -1,0 +1,56 @@
+.page {
+  background-color: #200033;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  gap: 15px;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    "sidebar info"
+    "sidebar input"
+    "footer  footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 2rem 20fr 5fr 10fr 2rem;
+}
+
+.page .header,
+.page .sidebar,
+.page .main,
+.page .info,
+.page .input,
+.page .footer {
+  background-color: #000044aa;
+  border: cyan solid 2px;
+  border-radius: 10px;
+}
+
+.header {
+  grid-area: header;
+  padding: 0.2rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.info {
+  grid-area: info;
+}
+
+.input {
+  grid-area: input;
+}
+
+.footer {
+  grid-area: footer;
+}
+

@@ -1,0 +1,39 @@
+.menu {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  padding: 0 0.5rem;
+}
+
+.menu:hover {
+  background-color: #500;
+}
+
+.menuPane {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #500;
+  color: white;
+  white-space: nowrap;
+}
+
+.menu:hover .menuPane {
+  display: block;
+}
+
+.menuPane * {
+  display: block;
+}
+
+.menuPane button {
+  border: none;
+  background-color: #0000;
+  color: white;
+}
+
+.menuPane button:hover {
+  background-color: #550000;
+  color: yellow;
+}
+
