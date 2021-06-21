@@ -1,4 +1,4 @@
-export default (state, action) => {
+const player = (state, action) => {
   switch (action.type) {
   case 'PLAYER/SET_PRONOUNS':
     return Object.assign({}, state, action.pronouns);
@@ -6,4 +6,5 @@ export default (state, action) => {
     return state;
   }
 }
+export default player;
 

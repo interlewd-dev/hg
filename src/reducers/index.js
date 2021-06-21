@@ -6,7 +6,7 @@ const combinedReducers = combineReducers({
   player,
 });
 
-export default (state, action) => {
+const rootReducer = (state, action) => {
   switch (action.type) {
   case 'CLEAR':
     return {};
@@ -16,4 +16,5 @@ export default (state, action) => {
     return combinedReducers(state, action);
   }
 };
+export default rootReducer;
 
