@@ -27,6 +27,7 @@
   background-color: #000044aa;
   border: cyan solid 2px;
   border-radius: 10px;
+  color: white;
 }
 
 .header {
@@ -40,6 +41,7 @@
 
 .main {
   grid-area: main;
+  padding: 0.2rem 0.5rem;
 }
 
 .info {
