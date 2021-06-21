@@ -11,7 +11,7 @@ const App = () => {
       <div className={styles.sidebar}>
       </div>
       <div className={styles.main}>
-        lorem ipsum dolor sit amet and so on
+        lorem ipsum dolor sit amet and so on and so on
       </div>
       <div className={styles.info}>
       </div>
