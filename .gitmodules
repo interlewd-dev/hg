@@ -1,0 +1,6 @@
+[submodule "interlewd-dev.github.io"]
+	path = interlewd-dev.github.io
+	url = https://github.com/interlewd-dev/interlewd-dev.github.io.git
+[submodule "hg-deployment"]
+	path = hg-deployment
+	url = https://github.com/interlewd-dev/interlewd-dev.github.io.git
